@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.wms-why/flowmails-mcp",
   "title": "Flowmails MCP",
-  "description": "Hosted MCP server for custom-domain email: send and receive mail on your own domain over streamable HTTP, with a durable wait so agents can block on an inbound verification code instead of polling an inbox.",
+  "description": "Hosted MCP server for custom-domain email: send, receive and wait for mail on your domain.",
   "version": "1.0.0",
   "websiteUrl": "https://flowmails.net/mcp",
   "repository": {
@@ -19,17 +19,17 @@
     {
       "src": "https://flowmails.net/logo_512.png",
       "mimeType": "image/png",
-      "sizes": "512x512"
+      "sizes": ["512x512"]
     },
     {
       "src": "https://flowmails.net/logo_256.webp",
       "mimeType": "image/webp",
-      "sizes": "256x256"
+      "sizes": ["256x256"]
     },
     {
       "src": "https://flowmails.net/logo_128.webp",
       "mimeType": "image/webp",
-      "sizes": "128x128"
+      "sizes": ["128x128"]
     }
   ]
 }
