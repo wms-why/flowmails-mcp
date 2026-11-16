@@ -1,0 +1,21 @@
+{
+  "name": "flowmails-mcp",
+  "version": "1.0.0",
+  "description": "Hosted MCP server for Flowmails — custom-domain email for AI agents: send, receive and wait for mail over MCP.",
+  "license": "MIT",
+  "homepage": "https://flowmails.net/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wms-why/flowmails-mcp.git"
+  },
+  "mcpName": "io.github.wms-why/flowmails-mcp",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "email",
+    "email-api",
+    "ai-agents",
+    "custom-domain"
+  ],
+  "private": false
+}
