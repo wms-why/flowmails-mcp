@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "flowmails": {
+      "url": "https://sdk.flowmails.net/mcp",
+      "headers": {
+        "Authorization": "Bearer fm_..."
+      }
+    }
+  }
+}

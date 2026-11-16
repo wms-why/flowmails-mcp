@@ -1,0 +1,19 @@
+{
+  "server": "io.github.wms-why/flowmails-mcp",
+  "transport": "streamable-http",
+  "endpoint": "https://sdk.flowmails.net/mcp",
+  "tools": [
+    { "name": "list_domains", "scope": "addresses:read", "description": "List the domains the credential can touch" },
+    { "name": "list_addresses", "scope": "addresses:read", "description": "List the inbound addresses of a domain" },
+    { "name": "create_address", "scope": "addresses:write", "description": "Provision a new inbound address" },
+    { "name": "search_emails", "scope": "messages:search", "description": "Search message history" },
+    { "name": "get_email", "scope": "messages:read", "description": "Read one message" },
+    { "name": "send_email", "scope": "messages:send", "description": "Send mail from a domain-bound address" },
+    { "name": "get_send_status", "scope": "send_status:read", "description": "Delivery status of a sent message" },
+    { "name": "wait_for_email", "scope": "waits:write", "description": "Open a durable wait on an address + subject" },
+    { "name": "get_wait_status", "scope": "waits:read", "description": "Check a durable wait" },
+    { "name": "list_events", "scope": "events:read", "description": "Read the event log" },
+    { "name": "claim_message", "scope": "messages:claim", "description": "Claim a message so a second agent will not take it" },
+    { "name": "complete_message", "scope": "messages:claim", "description": "Mark a claimed message as handled" }
+  ]
+}
