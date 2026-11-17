@@ -109,3 +109,7 @@ see [`server.json`](./server.json). The name is `io.github.wms-why/flowmails-mcp
 ## License
 
 MIT — see [LICENSE](./LICENSE).
+
+## Listed on
+
+- [IndieHunt](https://indiehunt.io/project/flowmails) — free launch queued
